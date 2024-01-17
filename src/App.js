@@ -56,6 +56,7 @@ function App() {
     X: "Player-1",
     O: "Player-2",
   });
+
   const [gameTurns, setGameTurns] = useState([]);
 
   const activePlayer = driveActivePlayer(gameTurns);
@@ -100,6 +101,7 @@ function App() {
             isActive={activePlayer === "X"}
             onChangeName={handlePlayerNameChange}
           />
+
           <Player
             initialName="player 2"
             symbol="O"
@@ -107,6 +109,7 @@ function App() {
             onChangeName={handlePlayerNameChange}
           />
         </ol>
+
         {(winner || hasDraw) && (
           <GameOver winner={winner} onRestart={handleRestart}></GameOver>
         )}

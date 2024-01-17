@@ -28,6 +28,7 @@ export default function Player({initialName,symbol,isActive,onChangeName}){
     }
 
     
+    
     return(
 
           <li className={isActive?'active':undefined}>
