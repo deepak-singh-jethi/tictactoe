@@ -200,7 +200,7 @@ ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(40, 38, 23, 0.95);
+  background-color: rgba(52, 52, 51, 0.95);
   animation: pop-in 0.5s cubic-bezier(0.68, -0.55, 0.65, 0.52) forwards;
 }
 
@@ -208,14 +208,14 @@ ol {
   font-family: 'Caprasimo', cursive;
   font-size: 4rem;
   text-align: center;
-  color: #fcd256;
+  color: #d7b21f;
   margin: 0;
 }
 
 #game-over p {
   font-size: 2rem;
   text-align: center;
-  color: #e1dec7;
+  color: #ffffff;
 }
 
 #game-over button {
@@ -241,10 +241,11 @@ ol {
 
 #log {
   max-width: 20rem;
-  color: #3f3b00;
+  color: #fbfbfb;
   list-style: none;
   margin: 2rem auto;
   padding: 0;
+  font-size: 24px;
   text-align: center;
 }
 
